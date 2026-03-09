@@ -73,6 +73,7 @@ If you use this work in your research, please cite:
   journal={IEEE Transactions on Power Systems},
   year={2026}
 }
+```
 
 ## License
 
