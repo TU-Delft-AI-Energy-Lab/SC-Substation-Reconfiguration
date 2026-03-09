@@ -57,6 +57,7 @@ The repository will be updated soon with:
 ## Citation
 
 If you use this work in your research, please cite:
+```bibtex
 @article{rajaei2026security,
   title={Security-Constrained Substation Reconfiguration Considering Busbar and Coupler Contingencies},
   author={Rajaei, Ali and Cremer, Jochen L},
@@ -64,5 +65,6 @@ If you use this work in your research, please cite:
   year={2026}
 }
 
-```bash
-python run_sc_sr.py --case ieee118
+## License
+
+This project will be released under the MIT License.
