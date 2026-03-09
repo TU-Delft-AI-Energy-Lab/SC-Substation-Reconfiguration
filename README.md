@@ -56,9 +56,10 @@ The proposed HMMP significantly reduces computational complexity and enables sca
 The implementation used in the paper is currently being prepared for public release.  
 The repository will be updated soon with:
 
-- implementation of the proposed **SC-SR formulation**
-- the **HMMP heuristic algorithm**
-- example scripts for the IEEE benchmark systems
+- The proposed **SC-SR formulation** implemented in Python
+- The **heuristic multi-master problem** solution approach
+- Baseline solution approaches, including Bender decomposition variants, and heuristic methods
+- Case study scripts for the IEEE benchmark systems
 
 ---
 
