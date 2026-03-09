@@ -1,18 +1,16 @@
 🚧 Code release in progress
 # Security-Constrained Substation Reconfiguration
 
-This repository contains the code accompanying the paper:
+**Author:** Ali Rajaei  
+**Affiliation:** Delft-AI Energy Lab, Department of Electrical Sustainable Energy, Delft University of Technology, the Netherlands  
+**Contact:** a.rajaei@tudelft.nl  
+**Date:** April 2025  
 
-Ali Rajaei, Jochen L. Cremer,  
-**"Security-Constrained Substation Reconfiguration considering Busbar and Coupler Contingencies"**,  
-IEEE Transactions on Power Systems, 2026.
+This repository accompanies the research paper:
 
-
-
-**Ali Rajaei et al.**  
-*Security-Constrained Substation Reconfiguration considering Busbar and Coupler Contingencies*  
-IEEE Transactions on Power Systems, 2026.
-📄 [Read the paper on arXiv](https://arxiv.org/abs/2603.04203)
+> Rajaei, Ali, Olayiwola Arowolo, and Jochen L. Cremer.  
+> ["Security-Constrained Substation Reconfiguration Considering Busbar and Coupler Contingencies."](https://arxiv.org/abs/2603.04203)  
+> *IEEE Transactions on Power Systems*, 2026.
 
 ---
 
@@ -38,6 +36,16 @@ This incident highlights the importance of explicitly considering **substation e
 *Illustration of the substation topology involved in the event.*
 
 To address this challenge, our work proposes a **security-constrained substation reconfiguration framework** that considers **line, coupler, and busbar contingencies**, while remaining computationally scalable for large power systems.
+
+---
+
+## 📄 Abstract
+
+Substation reconfiguration via busbar splitting can mitigate transmission grid congestion and reduce operational costs. However, existing approaches neglect the security of substation topology, particularly for substations without busbar splitting (i.e., closed couplers), which can lead to severe consequences. Additionally, the computational complexity of optimizing substation topology remains a challenge. 
+
+This paper introduces a MILP formulation for security-constrained substation reconfiguration (SC-SR), considering N-1 line, coupler and busbar contingencies to ensure secure substation topology. To efficiently solve this problem, we propose a heuristic approach with multiple master problems (HMMP). A central master problem optimizes dispatch, while independent substation master problems determine individual substation topologies in parallel. Linear AC power flow equations ensure PF accuracy, while feasibility and optimality sub-problems evaluate contingency cases. 
+
+The proposed HMMP significantly reduces computational complexity and enables scalability to large-scale power systems. Case studies on the IEEE 14-bus, 118-bus, and PEGASE 1354-bus system show the effectiveness of the approach in mitigating the impact of coupler and busbar tripping, balancing system security and cost, and computational efficiency.
 
 ---
 
