@@ -51,7 +51,6 @@ The repository will be updated soon with:
 - implementation of the proposed **SC-SR formulation**
 - the **HMMP heuristic algorithm**
 - example scripts for the IEEE benchmark systems
-- instructions to reproduce the results in the paper
 
 ---
 
