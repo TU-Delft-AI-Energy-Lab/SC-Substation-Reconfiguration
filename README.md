@@ -12,6 +12,7 @@ IEEE Transactions on Power Systems, 2026.
 **Ali Rajaei et al.**  
 *Security-Constrained Substation Reconfiguration considering Busbar and Coupler Contingencies*  
 IEEE Transactions on Power Systems, 2026.
+📄 [Read the paper on arXiv](https://arxiv.org/abs/2603.04203)
 
 ---
 
@@ -34,7 +35,7 @@ This incident highlights the importance of explicitly considering **substation e
 <img src="figures/substation_topology.jpg" width="500">
 </p>
 
-*Illustration of the substation topology involved in the event (adapted from ENTSO-E).*
+*Illustration of the substation topology involved in the event.*
 
 To address this challenge, our work proposes a **security-constrained substation reconfiguration framework** that considers **line, coupler, and busbar contingencies**, while remaining computationally scalable for large power systems.
 
